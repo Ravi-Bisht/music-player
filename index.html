@@ -1,0 +1,944 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <script src="https://kit.fontawesome.com/1c20c1c315.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css/main.css">
+
+        <link rel="stylesheet" href="css/playlist.css">
+
+        <link rel="stylesheet" href="css/main-section.css">
+        <link rel="stylesheet" href="css/mastercontrol.css">
+
+        <!-- bootstrap using  only for drop down menu  -->
+
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    </head>
+    <body>
+
+
+        <div class="header">
+            <div class="header-left">
+                <div class="logo">
+                    <img src="assets/mplogo.png"  alt="image">
+                </div>
+
+                <a href=""> Favourites</a> 
+                
+            </div>
+
+            <div class="header-right">
+
+                <div class="search-bar">
+                    <i id="search-icon" class="fas fa-search"></i>
+                    <input type="text" name="search" id="search-input" placeholder="Search" style="color:whitesmoke ;">
+                    <i id="mic-icon" class="fas fa-microphone"></i>
+                </div>
+
+                <div class="notification"><i class="fa-solid fa-bell"></i></div>
+
+                <div class="user-image"><img src="assets/skipper.jpg_large" alt=""></div>
+
+
+            </div>
+        </div>
+
+    <!-- main container made using grid -->
+        <div class="container-main">
+
+            <div class="main-left">
+
+                <div class="genre">
+
+                    <div class="playlist-art">
+                        <img src="assets/playlist.jfif" alt="">
+                    </div>
+                    <div class="playlist-art">
+                        <img src="assets/playlist2.jfif" alt="">
+                    </div>
+                    <div class="playlist-art">
+                        <img src="assets/playlist3.jfif" alt="">
+                    </div>
+
+                    <div class="playlist-art">
+                        <img src="assets/playlist4.jfif" alt="">
+                    </div>
+                    <div class="playlist-art">
+                        <img src="assets/playlist5.jfif" alt="">
+                    </div>
+                </div>
+
+
+                <div class="latest-release"><h1 style="color: white; margin-top: 2rem; margin-left: 2rem;">Latest Release</h1></div>
+
+                <div class="latest-release-container">
+
+                    <div class="latest-songs">
+
+                        <div class="songs-left">
+
+                            <div class="poster"><img src="assets/curtaincall.jfif" alt=""></div>
+
+                            <div class="song-details">
+                                <div class="song-name" style="color: whitesmoke; margin-top: 0.2rem;">Lighters</div>
+                                <div class="date"  style="color: whitesmoke; margin-top: 0.2rem;">05 Aug 2022</div>
+                            </div>
+                        </div>
+
+                        <div class="songs-right">
+
+                            <div>
+
+                                  <div class="dropdown">
+                                    <button class="btn btn-primary bg-black border-0 " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="details" style="color: whitesmoke;"><i class="fa-solid fa-ellipsis"></i></div>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item  border-bottom" href="#"><i class="fa-solid fa-play m-2"></i>Play Now</a></li>
+                                      <li><a class="dropdown-item border-bottom" href="#"><i class="fa-solid fa-plus m-2"></i>Add To Queue</a></li>
+                                      <li><a class="dropdown-item border-bottom" href="#"><i class="fa-solid fa-list-check m-2"></i>Add To Favourites</a></li>
+                                      <li><a class="dropdown-item border-bottom" href="#"><i class="fa-sharp fa-solid fa-circle-info m-2"></i>Get Info</a></li>
+                                    </ul>
+                                  </div>
+                                <div class="duration" style="color: whitesmoke;">5:50</div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="latest-songs">
+
+                        <div class="songs-left">
+
+                            <div class="poster"><img src="assets/curtaincall.jfif"  alt=""></div>
+
+                            <div class="song-details">
+                                <div class="song-name" style="color: whitesmoke; margin-top: 0.2rem;">Rap God</div>
+                                <div class="date"  style="color: whitesmoke; margin-top: 0.2rem;">05 Aug 2022</div>
+                            </div>
+                        </div>
+
+                        <div class="songs-right">
+
+                            <div>
+
+                                  <div class="dropdown">
+                                    <button class="btn btn-primary bg-black border-0 " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="details" style="color: whitesmoke;"><i class="fa-solid fa-ellipsis"></i></div>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item  border-bottom" href="#"><i class="fa-solid fa-play m-2"></i>Play Now</a></li>
+                                      <li><a class="dropdown-item border-bottom" href="#"><i class="fa-solid fa-plus m-2"></i>Add To Queue</a></li>
+                                      <li><a class="dropdown-item border-bottom" href="#"><i class="fa-solid fa-list-check m-2"></i>Add To Favourites</a></li>
+                                      <li><a class="dropdown-item border-bottom" href="#"><i class="fa-sharp fa-solid fa-circle-info m-2"></i>Get Info</a></li>
+                                    </ul>
+                                  </div>
+                                <div class="duration" style="color: whitesmoke;">4:38</div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="latest-songs">
+
+                        <div class="songs-left">
+
+                            <div class="poster"><img src="assets/curtaincall.jfif" alt=""></div>
+
+                            <div class="song-details">
+                                <div class="song-name" style="color: whitesmoke; margin-top: 0.2rem;">River(feat. Ed Sheeran)</div>
+                                <div class="date"  style="color: whitesmoke; margin-top: 0.2rem;">05 Aug 2022</div>
+                            </div>
+                        </div>
+
+                        <div class="songs-right">
+
+                            <div>
+
+                                  <div class="dropdown">
+                                    <button class="btn btn-primary bg-black border-0 " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="details" style="color: whitesmoke;"><i class="fa-solid fa-ellipsis"></i></div>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item  border-bottom" href="#"><i class="fa-solid fa-play m-2"></i>Play Now</a></li>
+                                      <li><a class="dropdown-item border-bottom" href="#"><i class="fa-solid fa-plus m-2"></i>Add To Queue</a></li>
+                                      <li><a class="dropdown-item border-bottom" href="#"><i class="fa-solid fa-list-check m-2"></i>Add To Favourites</a></li>
+                                      <li><a class="dropdown-item border-bottom" href="#"><i class="fa-sharp fa-solid fa-circle-info m-2"></i>Get Info</a></li>
+                                    </ul>
+                                  </div>
+                                <div class="duration" style="color: whitesmoke;">6:27</div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="latest-songs">
+
+                        <div class="songs-left">
+
+                            <div class="poster"><img src="assets/curtaincall.jfif"  alt=""></div>
+
+                            <div class="song-details">
+                                <div class="song-name" style="color: whitesmoke; margin-top: 0.2rem;">No Love(feat. Lil Wayne)</div>
+                                <div class="date"  style="color: whitesmoke; margin-top: 0.2rem;">05 Aug 2022</div>
+                            </div>
+                        </div>
+
+                        <div class="songs-right">
+
+                            <div>
+
+                                  <div class="dropdown">
+                                    <button class="btn btn-primary bg-black border-0 " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="details" style="color: whitesmoke;"><i class="fa-solid fa-ellipsis"></i></div>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item  border-bottom" href="#"><i class="fa-solid fa-play m-2"></i>Play Now</a></li>
+                                      <li><a class="dropdown-item border-bottom" href="#"><i class="fa-solid fa-plus m-2"></i>Add To Queue</a></li>
+                                      <li><a class="dropdown-item border-bottom" href="#"><i class="fa-solid fa-list-check m-2"></i>Add To Favourites</a></li>
+                                      <li><a class="dropdown-item border-bottom" href="#"><i class="fa-sharp fa-solid fa-circle-info m-2"></i>Get Info</a></li>
+                                    </ul>
+                                  </div>
+                                <div class="duration" style="color: whitesmoke;">5:14</div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                   
+
+                </div>
+
+                <div class="popular-artists"><h1 style="color: white; margin-top: 2rem; margin-left: 2rem;">Popular Artists</h1></div>
+
+                <div class="popular-artist-container">
+
+                    <div class="musicians">
+                        <a href="singleartist.html">
+                        <div class="artist-image"><img src="assets/artist1.jfif"></div>
+                        <div class="artist-name">Eminem</div>
+
+                    </a>
+                    </div>
+                    <div class="musicians">
+                        <a href="singleartist.html">
+                        <div class="artist-image"><img src="assets/artist2.jfif"></div>
+                        <div class="artist-name">Coldplay</div>
+
+                    </a>
+                    </div>
+                    <div class="musicians">
+                        <a href="singleartist.html">
+                        <div class="artist-image"><img src="assets/artist3.jfif"></div>
+                        <div class="artist-name">Linkin Park</div>
+
+                    </a>
+                    </div>
+                    <div class="musicians">
+                        <a href="singleartist.html">
+                        <div class="artist-image"><img src="assets/artist4.jfif"></div>
+                        <div class="artist-name">Kr$na</div>
+
+                    </a>
+                    </div>
+                    <div class="musicians">
+                        <a href="singleartist.html">
+                        <div class="artist-image"><img src="assets/artist5.jfif"></div>
+                        <div class="artist-name">Kshmr</div>
+
+                    </a>
+                    </div>
+                    <div class="musicians">
+                        <a href="singleartist.html">
+                        <div class="artist-image"><img src="assets/artist6.jfif"></div>
+                        <div class="artist-name">Alec Benjamin</div>
+
+                    </a>
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="radio">
+
+                    <div class="radio-playlist radio-head"><a href=""><img src="assets/radio.jpg" alt=""></a></div>
+
+                    <div class="radio-playlist"><a href=""><img src="assets/pop.jfif" alt=""></a></div>
+                    <div class="radio-playlist"><a href=""><img src="assets/workout.jfif" alt=""></a></div>
+                    <div class="radio-playlist"><a href=""><img src="assets/chill.jfif" alt=""></a></div>
+                    <div class="radio-playlist"><a href=""><img src="assets/rock.jfif" alt=""></a></div>
+                    <div class="radio-playlist"><a href=""><img src="assets/love.jfif" alt=""></a></div>
+                    <div class="radio-playlist"><a href=""><img src="assets/retro.jfif" alt=""></a></div>
+                </div>
+
+
+
+
+
+                <div class="mood">
+
+                    <div class="mood-playlist"><a href=""><img src="assets/party.jpg" alt="party"></a> 
+                    <div class="centered">PARTY</div></div>
+
+                    <div class="mood-playlist"><a href=""><img src="assets/roadtrip.webp" alt="roadtrip"></a>
+                        <div class="centered">ROADTRIP</div></div>
+                    <div class="mood-playlist"><a href=""><img src="assets/edm.jpg" alt="edm"></a>
+                        <div class="centered">ELECTRONIC</div></div>
+
+                </div>
+
+
+                <div class="english"><h1 style="color: white; margin-top: 2rem; margin-left: 2rem;">Latest English</h1></div>
+
+
+
+                <div class="latest-english">
+                    <div class="english-songs">
+                        <div class="english-poster"><img src="assets/eminem2.jfif" alt=""></div>
+                        <div class="track-name">Alfred-Intro</div>
+                        <div class="release-date">17 Jan 2020</div>
+
+
+                    </div>
+                    <div class="english-songs">
+                        <div class="english-poster"><img src="assets/eminem2.jfif" alt=""></div>
+                        <div class="track-name">Gnat</div>
+                        <div class="release-date">17 Jan 2020</div>
+
+
+                    </div>
+                    <div class="english-songs">
+                        <div class="english-poster"><img src="assets/eminem2.jfif" alt=""></div>
+                        <div class="track-name">Higher</div>
+                        <div class="release-date">17 Jan 2020</div>
+
+
+                    </div>
+                    <div class="english-songs">
+                        <div class="english-poster"><img src="assets/eminem2.jfif" alt=""></div>
+                        <div class="track-name">She Loves Me</div>
+                        <div class="release-date">17 Jan 2020</div>
+
+
+                    </div>
+                    <div class="english-songs">
+                        <div class="english-poster"><img src="assets/eminem2.jfif" alt=""></div>
+                        <div class="track-name">Premonition-Intro</div>
+                        <div class="release-date">17 Jan 2020</div>
+
+
+                    </div>
+                    <div class="english-songs">
+                        <div class="english-poster"><img src="assets/eminem2.jfif" alt=""></div>
+                        <div class="track-name">Godzilla</div>
+                        <div class="release-date">17 Jan 2020</div>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="hindi"><h1 style="color: white; margin-top: 2rem; margin-left: 2rem;">Latest Hindi</h1></div>
+                <div class="latest-hindi">
+                    <div class="Hindi-songs">
+                        <div class="hindi-poster"><img src="assets/jersey2.jfif" alt=""></div>
+                        <div class="track-name">Mehram</div>
+                        <div class="release-date">02 Dec 2021</div>
+
+                    </div>
+                    <div class="Hindi-songs">
+                        <div class="hindi-poster"><img src="assets/jersey.jfif" alt=""></div>
+                        <div class="track-name">Baliye Re</div>
+                        <div class="release-date">02 Dec 2021</div>
+
+                    </div>
+                    <div class="Hindi-songs">
+                        <div class="hindi-poster"><img src="assets/jersey3.jfif" alt=""></div>
+                        <div class="track-name">Jind Meriye</div>
+                        <div class="release-date">02 Dec 2021</div>
+
+                    </div>
+                    <div class="Hindi-songs">
+                        <div class="hindi-poster"><img src="assets/hindi.jfif" alt=""></div>
+                        <div class="track-name">Maiyya Mainu</div>
+                        <div class="release-date">02 Dec 2021</div>
+
+                    </div>
+                    <div class="Hindi-songs">
+                        <div class="hindi-poster"><img src="assets/bhramastra.jfif" alt=""></div>
+                        <div class="track-name">Deva Deva</div>
+                        <div class="release-date">08 Aug 2022</div>
+
+                    </div>
+                    <div class="Hindi-songs">
+                        <div class="hindi-poster"><img src="assets/bhramastra2.jfif" alt=""></div>
+                        <div class="track-name">Kesariya</div>
+                        <div class="release-date">17 July 2022</div>
+
+                    </div>
+                    
+  
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="main-right">
+
+            <div class="right-head">
+                <h1>Queue</h1>
+
+              <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle bg-black border-0 " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Queue
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item border-bottom" href="#"><i class="fa-sharp fa-solid fa-list p-2"></i>Playlist</a></li>
+                      <li><a class="dropdown-item border-bottom" href="#"><i class="fa-solid fa-list-check p-2"></i>Favourites</a></li>
+                    </ul>
+                  </div>
+            </div>
+
+
+            <div class="playlist">
+
+            <div class="playlist-items">
+
+                    <div class="playlist-left">
+
+                <div class="serial-no">01</div>
+
+                <div class="cover-art"><img src="assets/mmlp.jfif" alt=""></div>
+
+                <div class="details">
+                    <div class="song-name">The Real Slim Shady</div>
+                    <div class="artist"><a href="">Eminem</a></div>
+                </div>
+
+                <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+            </div>
+
+            <div class="playlist-right">
+
+                <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+            </div>
+
+            </div>
+            <div class="playlist-items">
+
+                <div class="playlist-left">
+
+            <div class="serial-no">02</div>
+
+            <div class="cover-art"><img src="assets/mmlp.jfif" alt=""></div>
+
+            <div class="details">
+                <div class="song-name">Stan</div>
+                <div class="artist"><a href="">Eminem</a></div>
+            </div>
+
+            <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+        </div>
+
+        <div class="playlist-right">
+
+            <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+        </div>
+
+            </div>
+            <div class="playlist-items">
+
+            <div class="playlist-left">
+
+        <div class="serial-no">03</div>
+
+        <div class="cover-art"><img src="assets/mmlp.jfif" alt=""></div>
+
+        <div class="details">
+            <div class="song-name">The Kids</div>
+            <div class="artist"><a href="">Eminem</a></div>
+        </div>
+
+        <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+        <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+            </div>
+            <div class="playlist-items">
+
+        <div class="playlist-left">
+
+    <div class="serial-no">04</div>
+
+    <div class="cover-art"><img src="assets/MMLP2.jpg" alt=""></div>
+
+    <div class="details">
+        <div class="song-name">Bad Guy</div>
+        <div class="artist"><a href="">Eminem</a></div>
+    </div>
+
+    <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+    <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+            </div>
+            <div class="playlist-items">
+
+                <div class="playlist-left">
+
+            <div class="serial-no">05</div>
+
+            <div class="cover-art"><img src="assets/MMLP2.jpg" alt=""></div>
+
+            <div class="details">
+                <div class="song-name">The Monster</div>
+                <div class="artist"><a href="">Eminem</a></div>
+            </div>
+
+            <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+        </div>
+
+        <div class="playlist-right">
+
+            <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+        </div>
+
+        </div>
+        <div class="playlist-items">
+
+            <div class="playlist-left">
+
+        <div class="serial-no">06</div>
+
+        <div class="cover-art"><img src="assets/MMLP2.jpg" alt=""></div>
+
+        <div class="details">
+            <div class="song-name">Rap God</div>
+            <div class="artist"><a href="">Eminem</a></div>
+        </div>
+
+        <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+        <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+        </div>
+        <div class="playlist-items">
+
+        <div class="playlist-left">
+
+    <div class="serial-no">07</div>
+
+    <div class="cover-art"><img src="assets/MMLP2.jpg" alt=""></div>
+
+    <div class="details">
+        <div class="song-name">Brainless</div>
+        <div class="artist"><a href="">Eminem</a></div>
+    </div>
+
+    <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+    <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+        </div>
+        <div class="playlist-items">
+
+    <div class="playlist-left">
+
+    <div class="serial-no">08</div>
+
+    <div class="cover-art"><img src="assets/MMLP2.jpg" alt=""></div>
+
+    <div class="details">
+    <div class="song-name">Survival</div>
+    <div class="artist"><a href="">Eminem</a></div>
+    </div>
+
+    <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+    <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+        </div>
+
+        <div class="playlist-items">
+
+            <div class="playlist-left">
+
+        <div class="serial-no">09</div>
+
+        <div class="cover-art"><img src="assets/recovery.jfif" alt=""></div>
+
+        <div class="details">
+            <div class="song-name">Not Afraid</div>
+            <div class="artist"><a href="">Eminem</a></div>
+        </div>
+
+        <div class="play-button"><a href=""><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+        <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+    </div>
+    <div class="playlist-items">
+
+        <div class="playlist-left">
+
+    <div class="serial-no">10</div>
+
+    <div class="cover-art"><img src="assets/MMLP2.jpg" alt=""></div>
+
+    <div class="details">
+        <div class="song-name">Berzerk</div>
+        <div class="artist"><a href="">Eminem</a></div>
+    </div>
+
+    <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+    <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+    </div>
+    <div class="playlist-items">
+
+    <div class="playlist-left">
+
+    <div class="serial-no">11</div>
+
+    <div class="cover-art"><img src="assets/recovery.jfif" alt=""></div>
+
+    <div class="details">
+    <div class="song-name">On Fire</div>
+    <div class="artist"><a href="">Eminem</a></div>
+    </div>
+
+    <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+    <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+    </div>
+    <div class="playlist-items">
+
+    <div class="playlist-left">
+
+    <div class="serial-no">12</div>
+
+    <div class="cover-art"><img src="assets/MMLP2.jpg" alt=""></div>
+
+    <div class="details">
+    <div class="song-name">Legacy</div>
+    <div class="artist"><a href="">Eminem</a></div>
+    </div>
+
+    <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+    <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+    </div>
+
+    <div class="playlist-items">
+
+        <div class="playlist-left">
+
+    <div class="serial-no">13</div>
+
+    <div class="cover-art"><img src="assets/MMLP2.jpg" alt=""></div>
+
+    <div class="details">
+        <div class="song-name">So Far</div>
+        <div class="artist"><a href="">Eminem</a></div>
+    </div>
+
+    <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+    <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+    </div>
+    <div class="playlist-items">
+
+    <div class="playlist-left">
+
+    <div class="serial-no">14</div>
+
+    <div class="cover-art"><img src="assets/recovery.jfif" alt=""></div>
+
+    <div class="details">
+    <div class="song-name">No Love</div>
+    <div class="artist"><a href="">Eminem</a></div>
+    </div>
+
+    <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+    <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+    </div>
+    <div class="playlist-items">
+
+    <div class="playlist-left">
+
+    <div class="serial-no">15</div>
+
+    <div class="cover-art"><img src="assets/mmlp.jfif" alt=""></div>
+
+    <div class="details">
+    <div class="song-name">Marshall Mathers</div>
+    <div class="artist"><a href="">Eminem</a></div>
+    </div>
+
+    <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+    <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+    </div>
+    <div class="playlist-items">
+
+    <div class="playlist-left">
+
+    <div class="serial-no">16</div>
+
+    <div class="cover-art"><img src="assets/recovery.jfif" alt=""></div>
+
+    <div class="details">
+    <div class="song-name">Space Bound</div>
+    <div class="artist"><a href="">Eminem</a></div>
+    </div>
+
+    <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+    <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+    </div>
+
+    <div class="playlist-items">
+
+        <div class="playlist-left">
+
+    <div class="serial-no">17</div>
+
+    <div class="cover-art"><img src="assets/mmlp.jfif" alt=""></div>
+
+    <div class="details">
+        <div class="song-name">Who Knew</div>
+        <div class="artist"><a href="">Eminem</a></div>
+    </div>
+
+    <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+    <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+    </div>
+    <div class="playlist-items">
+
+    <div class="playlist-left">
+
+    <div class="serial-no">18</div>
+
+    <div class="cover-art"><img src="assets/d2c.jfif" alt=""></div>
+
+    <div class="details">
+    <div class="song-name">Fron The D2</div>
+    <div class="artist"><a href="">Eminem</a></div>
+    </div>
+
+    <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+    <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+    </div>
+    <div class="playlist-items">
+
+    <div class="playlist-left">
+
+    <div class="serial-no">19</div>
+
+    <div class="cover-art"><img src="assets/recovery.jfif" alt=""></div>
+
+    <div class="details">
+    <div class="song-name">So Bad</div>
+    <div class="artist"><a href="">Eminem</a></div>
+    </div>
+
+    <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+    <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+    </div>
+    <div class="playlist-items">
+
+    <div class="playlist-left">
+
+    <div class="serial-no">20</div>
+
+    <div class="cover-art"><img src="assets/mmlp.jfif" alt=""></div>
+
+    <div class="details">
+    <div class="song-name">The Way I Am</div>
+    <div class="artist"><a href="">Eminem</a></div>
+    </div>
+
+    <div class="play-button"><a href="#master"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+
+    </div>
+
+    <div class="playlist-right">
+
+    <div class="like"><button><i class="fa-regular fa-heart"></i></button></div>
+
+    </div>
+
+    </div>
+            </div>
+
+        </div>
+        </div>
+
+
+
+        <!-- controls and play section -->
+
+
+        <section id="master" class="master-play">
+            <div class="leftside">
+                <img src="assets/MMLP2.jpg">
+                <div class="track-details">
+                    <p class="track-title">Stan</p>
+                    <p class="artistname" >Eminem</p>
+                </div>
+            </div>
+            <div class="middle">
+                <audio src="assets/stan.mp3" controls></audio>
+                <a href=""><i class="fa-solid fa-shuffle"></i></a>
+                <a href=""><i class="fa-solid fa-repeat"></i></a>
+                <a href=""><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                <a href="#"><i style="color: red;"  class="fa-solid fa-xmark"></i></a>
+            </div>
+        </section>
+
+     
+
+
+      
+
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+    </html>

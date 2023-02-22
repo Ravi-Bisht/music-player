@@ -1,0 +1,122 @@
+.main-right{
+    
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    background-color: black;
+    height:100vh;
+    overflow: scroll;
+}
+
+
+.main-right::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+  }
+
+.right-head{
+    color: whitesmoke;
+    margin: 0.7rem;
+}
+
+
+.playlist{
+    margin: 0.7rem;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.cover-art img{
+
+    height: 3.5rem;
+    margin-left: 0.8rem;
+
+}
+
+.serial-no{
+    color: whitesmoke;
+    margin-top: 0.6rem;
+}
+
+
+.details{
+    color: whitesmoke;
+    margin-left: 0.5rem;
+}
+
+
+.playlist-left{
+    margin-right: 5px;
+    display: flex;
+    
+}
+
+.like button {
+
+    background-color: inherit;
+    /* color: whitesmoke; */
+    margin-top: 0.6rem;
+}
+
+.like button i{
+    color: whitesmoke;
+}
+
+.like button i:hover{
+    color: red;
+}
+
+
+
+.playlist-items{   
+    /* box-shadow:0px 0px 0px 2px rgb(7, 6, 7); */
+    margin: 0.2rem 0px;
+    padding: 0.5rem;
+
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+
+}
+
+.playlist-items:hover{
+
+    box-shadow:0px 0px 0px 2px rgb(35, 34, 35);
+    transform: scale(0.95);
+}
+
+
+/* adding features to side playlist on hover */
+
+.play-button a i{
+    color: whitesmoke;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+
+    display: none;
+}
+
+.playlist-items:hover .play-button a i{
+    display: inline-block;   
+}
+
+.artist a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.artist a:hover{
+    text-decoration: underline;
+}
+
+
+button{
+    border: none;
+}
+
+
+
